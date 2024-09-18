@@ -1,0 +1,125 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+p, br{
+    font-size: 20px;
+}
+h1{
+    font-size: 30px;
+}
+h2{
+    font-size: 25px;
+}
+
+.menu{
+    background-color: #121121;
+    height: 110vh;
+    width: 370px;
+    padding: 0%;
+    float: left;
+    position: fixed;
+    left: -10px;
+    top: -40px;
+}
+
+
+.knopka{
+    width: 100px;
+    height: 50px;
+    font-size: 30px;
+    background-color: #121121;
+    color: white;
+    border-radius: 15px;
+}
+.knopka:hover{
+    background-color: #2a2851;
+}
+.karta_otweta{
+    visibility: hidden;
+    margin-left: 105px;
+    float: right;
+    width: 50px;
+    height: 50px;
+    
+
+}
+#pod{
+    text-decoration: underline;
+}
+.navigation{
+    margin-top: 100px;
+    margin-right: 20px;
+   list-style-type: none;
+}
+.onpage{/*fon dka knopok*/ 
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 15px;
+}
+
+.on_t{/*dla teksta kotoryj w knopkach*/
+    color: black;
+      background-color: white;
+    border: 1px solid gray;
+    border-radius: 15px;
+}
+.on_t:hover{
+    background-color: rgb(189, 189, 189);
+}
+#Test{
+    margin-top: 150px;
+}
+li{
+    margin: 10px;
+    text-align: center;
+    width: 261px;
+}
+a:hover{
+    background-color: #2a2851;
+}
+a{
+    width: 240px;
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(246, 246, 247);
+    font-size: 20px;
+    display: inline-block;
+    border: 2px solid gray;
+    border-radius: 15px;
+}
+.foto{
+    float: right;
+    width: 600px;
+    height: 400px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+
+.content{/*wsia stranica*/
+    float: left;
+}
+
+.readblock{/*tekst i kartinka*/
+    margin-top: 50px;
+    margin-left: 415px;
+    margin-right: 50px;
+}
+.block{
+    margin-top: 100px;
+}
+
+
+#zrodlolink{
+    border: none;
+    margin: 0%;
+    padding: 0%;
+    color: blue;
+    width: auto;
+    font-size: 30px;
+}
+#zrodlolink:hover{
+    background-color: white;
+}
+
